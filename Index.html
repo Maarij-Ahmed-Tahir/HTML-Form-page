@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +21,7 @@
         #main {
             background-color: rgb(29, 21, 21);
             color: white;
-            height: 400px;
+            height: 500px;
             width: 500px;
             margin-top: 40px;
             margin-left: auto;
@@ -32,7 +33,7 @@
         .sin-log {
             display: flex;
             justify-content: center;
-            padding-top: 40px;
+            padding-top: 60px;
         }
 
         #sign-up {
@@ -72,6 +73,28 @@
             text-align: center;
             font-weight:lighter;
         }
+
+        
+        #first-name{
+            height: 25px;
+            padding-left: 5px;
+            background-color: rgb(29, 21, 21);
+            border:1px solid gray;
+            color: white;
+            margin-left: 0px;
+            margin-bottom: 20px;
+            width: 180px;
+        }
+        #last-name{
+            height: 25px;
+            padding-left: 5px;
+            background-color: rgb(29, 21, 21);
+            border:1px solid gray;
+            color: white;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            width: 180px;
+        }
         #email{
             height: 25px;
             padding-left: 5px;
@@ -109,16 +132,20 @@
         }
     </style>
 </head>
+
 <body>
     <div id="main">
         <div class="sin-log">
             <a href="Index.html"><button id="sign-up">Sign Up</button></a>
             <a href="HTML login form.html"><button id="log-in">Log In</button></a>
         </div>
-        <h1>Welcome Back!</h1>
+        <h1>Sign Up For Free</h1>
+            <input type="text" name="first name" id="first-name" placeholder="First Name*">
+            <input type="text" name="last name" id="last-name" placeholder="last Name*">
             <input type="email" name="email" id="email" placeholder="Email*">
             <input type="password" name="password" id="pswrd" placeholder="Set A Password*">   
-    <br>    <button class="end">LOG IN</button>
+    <br>    <button class="end">GET STARTED</button>
     </div>
 </body>
+
 </html>
